@@ -653,7 +653,7 @@ function viewLeaderboard(tab="global"){
   </div>`;
 }
 function wtSyntheticLeaderboard(){
-  const names = ["Ava Stone","Leo Marsh","Nadia K.","Theo Bright","Iris Vane","Milo Reyes","Sana Cole","Dorian Fox","Elin Cross","Kian Wolfe"];
+  const names = ["Ammar","Leo Marsh","Nadia K.","Theo Bright","Iris Vane","Milo Reyes","Sana Cole","Dorian Fox","Elin Cross","Kian Wolfe"];
   return names.map((n,i)=>({ user:n, wpm: 140 - i*7 - Math.floor(Math.random()*4), accuracy: (98-i*0.4).toFixed(1), score: Math.round((140-i*7)*98) }));
 }
 
