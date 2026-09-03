@@ -1,0 +1,12 @@
+{
+  "name": "WolfType — Master Your Keyboard",
+  "short_name": "WolfType",
+  "description": "Improve your typing speed and accuracy through professional typing practice, structured lessons, and historical passages.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#05070d",
+  "theme_color": "#05070d",
+  "icons": [
+    { "src": "favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}
